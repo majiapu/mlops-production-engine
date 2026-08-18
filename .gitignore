@@ -1,0 +1,19 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+env/
+venv/
+
+# IDE / Mac specific
+.DS_Store
+.vscode/
+.idea/
+
+# Large files & local model binaries (managed by DVC in Week 4)
+data/
+models/*.joblib
+models/*.pkl
+*.db
