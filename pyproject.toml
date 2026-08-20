@@ -1,0 +1,16 @@
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # Pyflakes rules (e.g., unused variables/imports)
+    "I",  # isort (import sorting)
+]
+ignore = []
